@@ -1,0 +1,28 @@
+.footer {
+  flex-shrink: 0;
+  background-color: #181e2c;
+}
+
+.footer-content {
+  display: flex;
+  /* width: 100%; */
+  /* height: 100%; */
+  /* background-color: #fff; */
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.footer__item {
+  background-color: #1f2637;
+  height: 60px;
+  width: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.footer__item:hover {
+  background-color: #15a4fa;
+}
+

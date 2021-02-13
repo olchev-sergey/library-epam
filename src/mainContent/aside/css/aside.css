@@ -1,0 +1,138 @@
+/* ---------------aside start */
+.aside-content {
+  background-color: #141824;
+  flex: 0 1 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 250px;
+  max-width: 250px;
+}
+
+.aside-block-item {
+  background-color: #1f2637;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5px;
+  color: #78829c;
+  font-size: 1em;
+  /* overflow-y: scroll; */
+}
+
+
+
+.aside-add-block-btn {
+  background-color: orange;
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  font-size: 1.5rem;
+  padding: 5px 10px;
+  cursor: pointer;
+  /* margin: 15px 20px; */
+  margin: 30px 0;
+}
+
+.aside-nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.aside-nav__item {
+  padding: 0;
+  margin: 0;
+  color: #78829c;
+  padding: 5px 5px 5px 20px;
+  display: flex;
+  /* align-items: center; */
+  /* border: 1px solid black; */
+}
+
+.aside-nav__item-title {
+  display: inline-block;
+  margin-left: 5px;
+  /* vertical-align: middle; */
+}
+
+.aside-nav__item-icon {
+  display: inline-block;
+  /* border: 1px solid black; */
+  /* vertical-align: middle; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.aside-nav__item:hover {
+  color: #fff;
+  background-color:#15a4fa;
+}
+
+.aside-nav__item-circle {
+  color: greenyellow;
+  font-size: .5rem;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.aside-block-item:last-child {
+  margin-bottom: 0;
+  flex: 1;
+  /* align-items: stretch; */
+  position: relative;
+}
+
+.aside-add-info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* flex: 0 1 auto; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  overflow-y: auto;
+}
+
+
+
+.aside-add-info__item {
+  display: flex;
+  margin-bottom: 20px;
+  /* flex-direction: row; */
+  /* width: 100%; */
+  /* background-color: red; */
+}
+
+.aside-add-info__item:first-child {
+  margin-top: 20px;
+}
+
+.aside-add-info__item:last-child {
+  margin-bottom: 0;
+}
+
+.aside-add-info__item-text {
+  margin-left: 5px;
+  /* width: 100px; */
+  /* background-color: grey; */
+  flex-grow: 1;
+}
+
+.aside-add-info__item-text p {
+  padding: 0;
+  margin: 0;
+}
+
+.aside-add-info__item span {
+  color: #c7d3f0;
+}
+/* ---------------aside end   */
